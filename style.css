@@ -1,5 +1,5 @@
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
@@ -16,20 +16,23 @@ section{
     text-align: right;
 
 }
+
 #main-menu a{
     text-decoration: none;
     color: #3780e5;
     font-size: 18px;
     margin: 20px;
 }
+
 h1{
     color: rgb(77, 76, 76);
 }
+
 p{
     font-size: 15px;
 }
 
-.banner-details{
+.banner-section{
     display: flex;
 }
 
@@ -41,8 +44,9 @@ p{
 
 .banner-title h1{
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 900;
 }
+
 h1 span{
     color: #4834d4;
 }
@@ -60,12 +64,13 @@ h1 span{
     padding: 15px 25px;
     border-radius: 25px;
     font-weight: 500;
-    background-image: linear-gradient(#100f43, #446cdf);
+    background-image: linear-gradient(#100f43, #708bdb);
 }
 
 .banner-image{
     width: 80%;
 }
+
 .banner-image img{
     width: 60%;
     display: block;
@@ -78,44 +83,53 @@ h1 span{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.persion-image{
+
+.person-image{
     width: 50%;
     margin-top: 10px;
 }
-.persion-image img{
+
+.person-image img{
     width: 45%;
     display: block;
     margin: auto;
 }
-.persion-details{
+
+.person-details{
     width: 50%;
     margin-top: 120px;
 }
-.persion-details h2{
+
+.person-details h2{
     color: rgb(77, 76, 76);
 }
 
-.persion-details p{
+.person-details p{
     width: 60%;
     margin-bottom: 50px;
 }
-.persion-details a{
+
+.person-details a{
     text-decoration: none;
     color: white;
     padding: 15px 20px;
     border-radius: 25px;
     font-weight: 500;
-    background-image: linear-gradient(#100f43, #446cdf);
+    background-image: linear-gradient(#100f43, #708bdb);
 }
+
 .all-recipe{
     height: 600px;
 }
+
 .recipe-header{
     text-align: center;
 }
+
 .recipe-item{
     display: flex;
 }
+
 .recipe-item-list{
     width: 100%;
     border-radius: 30px;
@@ -124,6 +138,7 @@ h1 span{
     margin: 50px;
     padding-top: 15px;
 }
+
 .recipe-item-list img{
     width: 90%;
     height: 200px;
@@ -141,6 +156,7 @@ h1 span{
     margin: 15px 5px 25px 15px;
     line-height: 25px;
 }
+
 .contact-us{
     width: 100%;
     display: flex;
@@ -152,20 +168,24 @@ h1 span{
     background-size: contain;
     width: 50%;
 }
+
 .contact-title p{
     text-align: center;
     font-size: 20px;
     margin-top: 250px;
     margin-left: 200px;
 }
+
 .contact-form{
     width: 50%;
 
 }
+
 .contact-form h1{
     text-align: center;
     font-size: 40px;
 }
+
 .contact-form form{
     margin-left: 40px;
 }
@@ -175,22 +195,21 @@ footer{
     background-color: black;
     text-align: center;
 }
+
 .button{
     margin-top: 20px;
     text-decoration: none;
     color: white;
-    padding: 15px 20px;
+    padding: 15px 30px;
     border-radius: 25px;
     font-weight: 500;
-    background-image: linear-gradient(#100f43, #446cdf);
+    background-image: linear-gradient(#100f43, #708bdb);
 }
 
 footer h1{
     padding-top: 50px;
 }
+
 footer p{
     color: white;
 }
-
-
-
